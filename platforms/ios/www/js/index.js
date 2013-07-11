@@ -34,7 +34,11 @@ var date = new Date(),
     addNote: function() {
         var time = formatAMPM(date),
             note = $('#new-note').val(),
-            noteView = '<span>' + time + ' </span><span>' + note + '</span><br />';
+            noteView = '<li style="white-space: normal;" data-role="list-divider" role="heading"><strong>' + 
+                        time +'</strong></li><li><pre style="style="white-space:normal;">' + 
+                        note + '</pre></li>';
+
+            console.log(note);
 
         $('#new-note').val('');
         $('#notes-container').append(noteView);
@@ -42,7 +46,7 @@ var date = new Date(),
 
     saveNote: function() {
         var teacherName = $('#teacher-name').val();
-        
+
         alert('All notes should be saved to the server for the teacher: ' + teacherName);
     }
 };
