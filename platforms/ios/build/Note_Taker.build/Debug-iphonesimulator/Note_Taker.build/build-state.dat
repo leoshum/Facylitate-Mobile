@@ -1,0 +1,698 @@
+TNote_Taker
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Info.plist" Note_Taker/Note_Taker-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Note_Taker/Resources/icons/icon.png "build/Note Taker.app/icon.png"
+cCpResource Note_Taker/Resources/icons/icon-72.png "build/Note Taker.app/icon-72.png"
+cCpResource Note_Taker/config.xml "build/Note Taker.app/config.xml"
+cCpResource Note_Taker/Resources/icons/icon@2x.png "build/Note Taker.app/icon@2x.png"
+cCpResource Note_Taker/Resources/Capture.bundle "build/Note Taker.app/Capture.bundle"
+cCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/en.lproj/Localizable.strings" Note_Taker/Resources/en.lproj/Localizable.strings
+cCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/es.lproj/Localizable.strings" Note_Taker/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib
+cCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/de.lproj/Localizable.strings" Note_Taker/Resources/de.lproj/Localizable.strings
+cCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/se.lproj/Localizable.strings" Note_Taker/Resources/se.lproj/Localizable.strings
+cCpResource Note_Taker/Resources/splash/Default-Landscape@2x~ipad.png "build/Note Taker.app/Default-Landscape@2x~ipad.png"
+cCpResource Note_Taker/Resources/splash/Default-Landscape~ipad.png "build/Note Taker.app/Default-Landscape~ipad.png"
+cCpResource Note_Taker/Resources/splash/Default-Portrait@2x~ipad.png "build/Note Taker.app/Default-Portrait@2x~ipad.png"
+cCpResource Note_Taker/Resources/splash/Default-Portrait~ipad.png "build/Note Taker.app/Default-Portrait~ipad.png"
+cCpResource Note_Taker/Resources/splash/Default@2x~iphone.png "build/Note Taker.app/Default@2x~iphone.png"
+cCpResource Note_Taker/Resources/splash/Default~iphone.png "build/Note Taker.app/Default~iphone.png"
+cCpResource Note_Taker/Resources/splash/Default-568h@2x~iphone.png "build/Note Taker.app/Default-568h@2x~iphone.png"
+cCpResource Note_Taker/Resources/icons/icon-72@2x.png "build/Note Taker.app/icon-72@2x.png"
+cProcessPCH /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth Note_Taker/Note_Taker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker" normal i386
+cGenerateDSYMFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYM" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker"
+cTouch "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BEBF990000000000000110
+t1371455385
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510F4F5500000000001EB540
+t1359957845
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000510F4F5400000000000C1030
+t1359957844
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c00000000510F4F550000000000193640
+t1359957845
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000510F4F5400000000000226E0
+t1359957844
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510F4F5600000000003D4DF0
+t1359957846
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510F4F560000000000215DB0
+t1359957846
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510F4F560000000000228FE0
+t1359957846
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000510F4F56000000000009C590
+t1359957846
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510F4F560000000000085620
+t1359957846
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510F4F5700000000003DDFA0
+t1359957847
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000510F4F5900000000002CFBE0
+t1359957849
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510F4F5A00000000002DBA50
+t1359957850
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000510F4F5D00000000000BCC20
+t1359957853
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000510F4F5C0000000000030EB0
+t1359957852
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000510F4F5D00000000001D5750
+t1359957853
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000510F4F5D000000000006CC50
+t1359957853
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510F4F600000000000AB6230
+t1359957856
+s11231792
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.h
+c0000000051DE60FB00000000000005B9
+t1373528315
+s1465
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m
+c0000000051DE60FB00000000000013DA
+t1373528315
+s5082
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.h
+c0000000051DE60FB00000000000004D0
+t1373528315
+s1232
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m
+c0000000051DE60FB000000000000126B
+t1373528315
+s4715
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib
+c0000000051DE60FB0000000000001759
+t1373528315
+s5977
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Note_Taker-Prefix.pch
+c0000000051DE60FB00000000000003C5
+t1373528315
+s965
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/Capture.bundle
+c0000000051DE60FB000000000000030E
+t1373528315
+s782
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/de.lproj/Localizable.strings
+c0000000051DE60FB00000000000004BF
+t1373528315
+s1215
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/en.lproj/Localizable.strings
+c0000000051DE60FB00000000000004AA
+t1373528315
+s1194
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/es.lproj/Localizable.strings
+c0000000051DE60FB00000000000004B7
+t1373528315
+s1207
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon-72.png
+c0000000051DE60FB0000000000001350
+t1373528315
+s4944
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon-72@2x.png
+c0000000051DE60FB0000000000002DBA
+t1373528315
+s11706
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon.png
+c0000000051DE60FB0000000000000F3E
+t1373528315
+s3902
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon@2x.png
+c0000000051DE60FB0000000000001EBD
+t1373528315
+s7869
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/se.lproj/Localizable.strings
+c0000000051DE60FB00000000000004AB
+t1373528315
+s1195
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-568h@2x~iphone.png
+c0000000051DE60FB00000000000085B1
+t1373528315
+s34225
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051DE60FB0000000000012DF4
+t1373528315
+s77300
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Landscape~ipad.png
+c0000000051DE60FB0000000000008877
+t1373528315
+s34935
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051DE60FB0000000000012B02
+t1373528315
+s76546
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Portrait~ipad.png
+c0000000051DE60FB00000000000085E6
+t1373528315
+s34278
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default@2x~iphone.png
+c0000000051DE60FB0000000000007323
+t1373528315
+s29475
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default~iphone.png
+c0000000051DE60FB000000000000289A
+t1373528315
+s10394
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/config.xml
+c0000000051DE7E13000000000000103C
+t1373535763
+s4156
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m
+c0000000051DE60FB000000000000045C
+t1373528315
+s1116
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app
+t1373535763
+s782
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYM
+t1373528331
+s102
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Capture.bundle
+t1373528326
+s782
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default-568h@2x~iphone.png
+t1373528326
+s34225
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default-Landscape@2x~ipad.png
+t1373528326
+s77300
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default-Landscape~ipad.png
+t1373528326
+s34935
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default-Portrait@2x~ipad.png
+t1373528326
+s76546
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default-Portrait~ipad.png
+t1373528326
+s34278
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default@2x~iphone.png
+t1373528326
+s29475
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Default~iphone.png
+t1373528326
+s10394
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Info.plist
+t1373535763
+s1045
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/MainViewController.nib
+t1373528329
+s822
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker
+t1373528331
+s935164
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/PkgInfo
+t2
+s0
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/config.xml
+t1373535758
+s4156
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/de.lproj/Localizable.strings
+t1373528326
+s280
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/en.lproj/Localizable.strings
+t1373528326
+s166
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/es.lproj/Localizable.strings
+t1373528326
+s334
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/icon-72.png
+t1373528326
+s4944
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/icon-72@2x.png
+t1373528326
+s11706
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/icon.png
+t1373528326
+s3902
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/icon@2x.png
+t1373528326
+s7869
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/se.lproj/Localizable.strings
+t1373528326
+s283
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o
+t1373528330
+s98260
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o
+t1373528330
+s79640
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/Note Taker.LinkFileList
+c0000000051DE610500000000000001BC
+t1373528325
+s444
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o
+t1373528330
+s3128
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh
+c0000000051DE6105000000000000051A
+t1373528325
+s1306
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVAvailability.h
+c0000000051DE61010000000000000C47
+t1373528321
+s3143
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+c0000000051DE610100000000000008BA
+t1373528321
+s2234
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000051DE61010000000000000473
+t1373528321
+s1139
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+c0000000051DE61010000000000000501
+t1373528321
+s1281
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000051DE61010000000000000906
+t1373528321
+s2310
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVPlugin.h
+c0000000051DE61010000000000000892
+t1373528321
+s2194
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVPluginResult.h
+c0000000051DE61010000000000000C13
+t1373528321
+s3091
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000051DE61010000000000000408
+t1373528321
+s1032
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVViewController.h
+c0000000051DE61010000000000000B67
+t1373528321
+s2919
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVWhitelist.h
+c0000000051DE610100000000000004B4
+t1373528321
+s1204
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000051DE610100000000000003A0
+t1373528321
+s928
+
+N/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/libCordova.a
+c0000000051DE6105000000000036F768
+t1373528325
+s3602280
+
+N/var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth
+t1373528330
+s4680920
+
+NNote_Taker/Note_Taker-Info.plist
+c0000000051DE7E130000000000000745
+t1373535763
+s1861
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesecc0c597b58eb741^9e0cc697b58eb741^---0#1#0#--18"Check dependencies36"0CD12820-D67E-4229-8EB4-A2A49D3F6AD9-
+
+CCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395221130.530394
+e395221130.789271
+r1
+xCompileC
+xbuild/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m4300888a988eb741^280cca8a988eb741^-694"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-395221130#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-395221130#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@106"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m0000000000000000^79#24#79#24#2695#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@100"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m0000000000000000^3820"CompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o Note_Taker/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-generated-files.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-own-target-headers.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-project-headers.hmap" -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/usr/local/lib/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/UninstalledProducts/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources/i386 -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources -F/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -include /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.dia -c /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/AppDelegate.m -o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/AppDelegate.o36"B8482758-41D7-4AEF-BD1E-687BE990F4F7-
+
+CCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395221130.530373
+e395221130.711336
+r1
+xCompileC
+xbuild/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.me3fe878a988eb741^272fb68a988eb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m0000000000000000^3862"CompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o Note_Taker/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-generated-files.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-own-target-headers.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-project-headers.hmap" -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/usr/local/lib/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/UninstalledProducts/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources/i386 -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources -F/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -include /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.dia -c /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.m -o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/MainViewController.o36"BCE40D87-8845-4C84-8F0E-36EFE9997A0B-
+
+CCompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395221130.530386
+e395221130.710003
+r1
+xCompileC
+xbuild/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m5dfe878a988eb741^1ec1b58a988eb741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m0000000000000000^3762"CompileC build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o Note_Taker/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-generated-files.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-own-target-headers.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-project-headers.hmap" -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/usr/local/lib/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/UninstalledProducts/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources/i386 -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources -F/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -include /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch -MMD -MT dependencies -MF /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.dia -c /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/main.m -o /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/main.o36"DD8AC870-9F99-46AF-8514-B18ED8585649-
+
+CCompileXIB /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib
+s395221126.555662
+e395221129.962723
+r1
+xCompileXIB
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib66668e86988eb741^7b84f689988eb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib0000000000000000^1135"CompileXIB Note_Taker/Classes/MainViewController.xib    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/MainViewController.nib" /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"634921EC-3F08-4A21-82E6-8AF743A7895F-
+
+CCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/de.lproj/Localizable.strings" Note_Taker/Resources/de.lproj/Localizable.strings
+s395221126.562591
+e395221126.574618
+r1
+xCopyStringsFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/de.lproj/Localizable.strings
+xNote_Taker/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Note_Taker/Resources/de.lproj/Localizable.strings132a9086988eb741^7c269386988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/de.lproj/Localizable.strings0000000000000000^791"CopyStringsFile "build/Note Taker.app/de.lproj/Localizable.strings" Note_Taker/Resources/de.lproj/Localizable.strings    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/de.lproj" -- Note_Taker/Resources/de.lproj/Localizable.strings36"0760B841-F89A-4CD4-AD36-3D56205D47AB-
+
+CCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/en.lproj/Localizable.strings" Note_Taker/Resources/en.lproj/Localizable.strings
+s395221126.552012
+e395221126.561026
+r1
+xCopyStringsFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/en.lproj/Localizable.strings
+xNote_Taker/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Note_Taker/Resources/en.lproj/Localizable.strings47728d86988eb741^60ac8f86988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/en.lproj/Localizable.strings0000000000000000^791"CopyStringsFile "build/Note Taker.app/en.lproj/Localizable.strings" Note_Taker/Resources/en.lproj/Localizable.strings    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/en.lproj" -- Note_Taker/Resources/en.lproj/Localizable.strings36"7E1C9C01-A842-4B35-9EFC-18A41ED1B069-
+
+CCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/es.lproj/Localizable.strings" Note_Taker/Resources/es.lproj/Localizable.strings
+s395221126.554339
+e395221126.562262
+r1
+xCopyStringsFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/es.lproj/Localizable.strings
+xNote_Taker/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Note_Taker/Resources/es.lproj/Localizable.stringse4138e86988eb741^a8fc8f86988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/es.lproj/Localizable.strings0000000000000000^791"CopyStringsFile "build/Note Taker.app/es.lproj/Localizable.strings" Note_Taker/Resources/es.lproj/Localizable.strings    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/es.lproj" -- Note_Taker/Resources/es.lproj/Localizable.strings36"B1D0B6FD-36BA-470A-9487-AEA87B8E2B96-
+
+CCopyStringsFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/se.lproj/Localizable.strings" Note_Taker/Resources/se.lproj/Localizable.strings
+s395221126.563146
+e395221126.575131
+r1
+xCopyStringsFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/se.lproj/Localizable.strings
+xNote_Taker/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy Note_Taker/Resources/se.lproj/Localizable.stringsa54a9086988eb741^0b449386988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/se.lproj/Localizable.strings0000000000000000^791"CopyStringsFile "build/Note Taker.app/se.lproj/Localizable.strings" Note_Taker/Resources/se.lproj/Localizable.strings    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/se.lproj" -- Note_Taker/Resources/se.lproj/Localizable.strings36"983B486E-770C-417F-9595-658FC1398B97-
+
+CCpResource Note_Taker/Resources/Capture.bundle "build/Note Taker.app/Capture.bundle"
+s395221126.551980
+e395221126.571594
+r1
+xCpResource
+xNote_Taker/Resources/Capture.bundle
+xbuild/Note Taker.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Note Taker.app/Capture.bundlef06e8d86988eb741^dd5e9286988eb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Capture.bundle000000000080d041^806"CpResource Note_Taker/Resources/Capture.bundle "build/Note Taker.app/Capture.bundle"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/Capture.bundle "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"D26881D2-208D-4EB1-B6DE-1B97B9C9A7D8-
+
+CCpResource Note_Taker/Resources/icons/icon-72.png "build/Note Taker.app/icon-72.png"
+s395221126.547792
+e395221126.552970
+r1
+xCpResource
+xNote_Taker/Resources/icons/icon-72.png
+xbuild/Note Taker.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Note Taker.app/icon-72.png6c5f8c86988eb741^0c8f8d86988eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/icon-72.png000000000080d041^809"CpResource Note_Taker/Resources/icons/icon-72.png "build/Note Taker.app/icon-72.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon-72.png "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"E6AEE09C-C9F4-4D80-9C4A-B05E978E68A1-
+
+CCpResource Note_Taker/Resources/icons/icon-72@2x.png "build/Note Taker.app/icon-72@2x.png"
+s395221126.585311
+e395221126.588668
+r1
+xCpResource
+xNote_Taker/Resources/icons/icon-72@2x.png
+xbuild/Note Taker.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Note Taker.app/icon-72@2x.pngdafe9586988eb741^8bc29686988eb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/icon-72@2x.png000000000080d041^822"CpResource "Note_Taker/Resources/icons/icon-72@2x.png" "build/Note Taker.app/icon-72@2x.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon-72@2x.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"2A8259FD-30A3-40A7-BD59-B3E1A8AC77ED-
+
+CCpResource Note_Taker/Resources/icons/icon.png "build/Note Taker.app/icon.png"
+s395221126.547970
+e395221126.551745
+r1
+xCpResource
+xNote_Taker/Resources/icons/icon.png
+xbuild/Note Taker.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/Note Taker.app/icon.pnga5658c86988eb741^923e8d86988eb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/icon.png000000000080d041^800"CpResource Note_Taker/Resources/icons/icon.png "build/Note Taker.app/icon.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon.png "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"7297CB4F-C6F6-40C7-89CC-7979B0862FAA-
+
+CCpResource Note_Taker/Resources/icons/icon@2x.png "build/Note Taker.app/icon@2x.png"
+s395221126.548170
+e395221126.554397
+r1
+xCpResource
+xNote_Taker/Resources/icons/icon@2x.png
+xbuild/Note Taker.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/Note Taker.app/icon@2x.pngd2728c86988eb741^e1f18d86988eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/icon@2x.png000000000080d041^813"CpResource "Note_Taker/Resources/icons/icon@2x.png" "build/Note Taker.app/icon@2x.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/icons/icon@2x.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"C2FCB55A-F0DF-4A82-9397-020A853994C7-
+
+CCpResource Note_Taker/Resources/splash/Default-568h@2x~iphone.png "build/Note Taker.app/Default-568h@2x~iphone.png"
+s395221126.585296
+e395221126.598828
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Note Taker.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Note Taker.app/Default-568h@2x~iphone.png64069686988eb741^a5d89986988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default-568h@2x~iphone.png000000000080d041^860"CpResource "Note_Taker/Resources/splash/Default-568h@2x~iphone.png" "build/Note Taker.app/Default-568h@2x~iphone.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-568h@2x~iphone.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"A20F4C56-5C79-4FA6-96A6-6708366C20AF-
+
+CCpResource Note_Taker/Resources/splash/Default-Landscape@2x~ipad.png "build/Note Taker.app/Default-Landscape@2x~ipad.png"
+s395221126.573674
+e395221126.577180
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Note Taker.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Note Taker.app/Default-Landscape@2x~ipad.pngbd009386988eb741^3fc79386988eb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default-Landscape@2x~ipad.png000000000080d041^869"CpResource "Note_Taker/Resources/splash/Default-Landscape@2x~ipad.png" "build/Note Taker.app/Default-Landscape@2x~ipad.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Landscape@2x~ipad.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"E0FBC9E6-30E2-413D-B4B1-2010D68A2DC8-
+
+CCpResource Note_Taker/Resources/splash/Default-Landscape~ipad.png "build/Note Taker.app/Default-Landscape~ipad.png"
+s395221126.576016
+e395221126.579300
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default-Landscape~ipad.png
+xbuild/Note Taker.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Note Taker.app/Default-Landscape~ipad.png309c9386988eb741^80629486988eb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default-Landscape~ipad.png000000000080d041^860"CpResource "Note_Taker/Resources/splash/Default-Landscape~ipad.png" "build/Note Taker.app/Default-Landscape~ipad.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Landscape~ipad.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"39D04788-4C96-4B1B-87E1-1386D37D64A1-
+
+CCpResource Note_Taker/Resources/splash/Default-Portrait@2x~ipad.png "build/Note Taker.app/Default-Portrait@2x~ipad.png"
+s395221126.576303
+e395221126.580883
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Note Taker.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Note Taker.app/Default-Portrait@2x~ipad.png6aa69386988eb741^66c19486988eb741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default-Portrait@2x~ipad.png000000000080d041^866"CpResource "Note_Taker/Resources/splash/Default-Portrait@2x~ipad.png" "build/Note Taker.app/Default-Portrait@2x~ipad.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Portrait@2x~ipad.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"23F7C2C4-34EF-42AC-A300-3F1B5F74E842-
+
+CCpResource Note_Taker/Resources/splash/Default-Portrait~ipad.png "build/Note Taker.app/Default-Portrait~ipad.png"
+s395221126.579436
+e395221126.583085
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default-Portrait~ipad.png
+xbuild/Note Taker.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Note Taker.app/Default-Portrait~ipad.pngcd779486988eb741^064b9586988eb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default-Portrait~ipad.png000000000080d041^857"CpResource "Note_Taker/Resources/splash/Default-Portrait~ipad.png" "build/Note Taker.app/Default-Portrait~ipad.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default-Portrait~ipad.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"6C25B240-61BC-4C88-8016-749F64B87B44-
+
+CCpResource Note_Taker/Resources/splash/Default@2x~iphone.png "build/Note Taker.app/Default@2x~iphone.png"
+s395221126.580530
+e395221126.584036
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default@2x~iphone.png
+xbuild/Note Taker.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Note Taker.app/Default@2x~iphone.pngdbc19486988eb741^48bf9586988eb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default@2x~iphone.png000000000080d041^845"CpResource "Note_Taker/Resources/splash/Default@2x~iphone.png" "build/Note Taker.app/Default@2x~iphone.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default@2x~iphone.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"2E6DFAE9-54F7-431C-9556-DBCC30993A88-
+
+CCpResource Note_Taker/Resources/splash/Default~iphone.png "build/Note Taker.app/Default~iphone.png"
+s395221126.582309
+e395221126.587159
+r1
+xCpResource
+xNote_Taker/Resources/splash/Default~iphone.png
+xbuild/Note Taker.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy build/Note Taker.app/Default~iphone.pnga4369586988eb741^ea5b9686988eb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/Default~iphone.png000000000080d041^836"CpResource "Note_Taker/Resources/splash/Default~iphone.png" "build/Note Taker.app/Default~iphone.png"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Resources/splash/Default~iphone.png" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"B339375B-1951-414E-BE7D-4432D3D91F1B-
+
+CCpResource Note_Taker/config.xml "build/Note Taker.app/config.xml"
+s395228568.170080
+e395228568.172903
+r1
+xCpResource
+xNote_Taker/config.xml
+xbuild/Note Taker.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/Note Taker.app/config.xmle6b02b98b58eb741^c4432c98b58eb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app/config.xml0000000000000000^774"CpResource Note_Taker/config.xml "build/Note Taker.app/config.xml"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/config.xml "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"27370BB4-295F-402D-823E-25F79B4FC5E3-
+
+CGenerateDSYMFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYM" "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker"
+s395221131.192349
+e395221131.398091
+r1
+xGenerateDSYMFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYM
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYMd960318b988eb741^9aee658b988eb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note%20Taker.app.dSYM000000000080d041^794"GenerateDSYMFile "build/Note Taker.app.dSYM" "build/Note Taker.app/Note Taker"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker" -o "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app.dSYM"36"64A893C7-AC04-4014-A400-FF28A56AA7AD-
+
+CLd "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker" normal i386
+s395221130.796270
+e395221131.185600
+r1
+xLd
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker8105cc8a988eb741^90822f8b988eb741^---0#0#0#--1994"Ld "build/Note Taker.app/Note Taker" normal i386    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -F/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -filelist "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/Note Taker.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Note Taker"36"D01515A9-D1F7-4DA8-AD69-7B3393283C7D-
+
+CPhaseScriptExecution "Copy www directory" /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh
+s395228567.799988
+e395228568.161896
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.335s
+ouser	0m0.132s
+osys	0m0.167s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'd098cd97b58eb741^2e742998b58eb741^-42"real	0m0.335suser	0m0.132ssys	0m0.167s3(21%IDEActivityLogMessage2@14"real	0m0.335s-395228568#1#14#-0#-----2@14"user	0m0.132s-395228568#15#14#-0#-----2@13"sys	0m0.167s-395228568#29#13#-0#-----0#0#0#--21258"PhaseScriptExecution "Copy www directory" build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER admin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv BUILD_ROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv CACHE_ROOT /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH "Note Taker.app"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/admin/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH "Note Taker.app/English.lproj/Documentation"    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Note_Taker.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME "Note Taker.app.dSYM"    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "Note Taker.app/Executables"    setenv EXECUTABLE_FOLDER_PATH "Note Taker.app"    setenv EXECUTABLE_NAME "Note Taker"    setenv EXECUTABLE_PATH "Note Taker.app/Note Taker"    setenv FILE_LIST /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH "Note Taker.app/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "Note Taker.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Note_Taker/Note_Taker-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include\" \"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/usr/local/lib/include\" \"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/UninstalledProducts/include\" \"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Note_Taker/Note_Taker-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH "Note Taker.app/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH "Note Taker.app/English.lproj/InfoPlist.strings"    setenv INSTALL_DIR /tmp/Note_Taker.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER admin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Note_Taker.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "Note Taker.app/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-LinkMap-normal-i386.txt"    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal/i386/Note Taker.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH "Note Taker.app/English.lproj"    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Objects-normal    setenv OBJROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/libCordova.a -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "Note Taker.app/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/PkgInfo    setenv PKGINFO_PATH "Note Taker.app/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH "Note Taker.app/PlugIns"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "Note Taker.app/PrivateHeaders"    setenv PRODUCT_NAME "Note Taker"    setenv PRODUCT_SETTINGS_PATH /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Note_Taker-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Note_Taker    setenv PROJECT_DERIVED_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/DerivedSources    setenv PROJECT_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PROJECT_FILE_PATH /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker.xcodeproj    setenv PROJECT_NAME Note_Taker    setenv PROJECT_TEMP_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build    setenv PROJECT_TEMP_ROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH "Note Taker.app/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "Note Taker.app/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH "Note Taker.app/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "Note Taker.app/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv SRCROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Note_Taker    setenv TARGET_BUILD_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv TARGET_NAME Note_Taker    setenv TARGET_TEMP_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build    setenv TEMP_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build    setenv TEMP_FILES_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build    setenv TEMP_FILE_DIR /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build    setenv TEMP_ROOT /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "Note Taker.app"    setenv UNSTRIPPED_PRODUCT NO    setenv USER admin    setenv USER_APPS_DIR /Users/admin/Applications    setenv USER_LIBRARY_DIR /Users/admin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "Note Taker.app/version.plist"    setenv VERSION_INFO_BUILDER admin    setenv VERSION_INFO_FILE "Note Taker_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Note Taker  PROJECT:Note_Taker-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "Note Taker.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Script-304B58A110DAC018002A0835.sh36"E7249AFF-F7AE-4D4F-B541-BA39B10C73A1-
+
+CProcessInfoPlistFile "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Info.plist" Note_Taker/Note_Taker-Info.plist
+s395228567.784974
+e395228567.791780
+r1
+xProcessInfoPlistFile
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Info.plist
+xNote_Taker/Note_Taker-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process Note_Taker/Note_Taker-Info.plist2425c997b58eb741^3eb1ca97b58eb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Note_Taker-Info.plist0000000000000000^842"ProcessInfoPlistFile "build/Note Taker.app/Info.plist" Note_Taker/Note_Taker-Info.plist    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    builtin-infoPlistUtility Note_Taker/Note_Taker-Info.plist -genpkginfo "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app/Info.plist"36"BEEF3EDA-8B6B-419D-AF5A-BD26DBD5AA0E-
+
+CProcessPCH /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth Note_Taker/Note_Taker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395221129.976230
+e395221130.523776
+r1
+xProcessPCH
+x/var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth
+xNote_Taker/Note_Taker-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Note_Taker/Note_Taker-Prefix.pch0420fa89988eb741^3315868a988eb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Note_Taker-Prefix.pch0000000000000000^3781"ProcessPCH /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth Note_Taker/Note_Taker-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-generated-files.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-own-target-headers.hmap" "-I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-all-target-headers.hmap" -iquote "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/Note Taker-project-headers.hmap" -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/usr/local/lib/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/UninstalledProducts/include -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources/i386 -I/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note_Taker.build/Debug-iphonesimulator/Note_Taker.build/DerivedSources -F/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build --serialize-diagnostics /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.dia -c /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/Note_Taker/Note_Taker-Prefix.pch -o /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/m2/40kly5sx27z92fclgxpvlk4r0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/Note_Taker-Prefix-furpyamlghrsbffdntbrjcmkwrnh/Note_Taker-Prefix.pch.d36"60E585D8-DCA7-4A0C-9B10-C49446BD9987-
+
+CTouch "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"
+s395228568.211671
+e395228568.218607
+r1
+xTouch
+x/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.appd8483698b58eb741^62f53798b58eb741^---0#0#0#--572"Touch "build/Note Taker.app"    cd /Users/admin/Desktop/Helena/NoteTaker/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/admin/.rvm/bin:/usr/local/mysql-5.6.10-osx10.7-x86_64/bin/mysql:/Applications/adt-bundle-mac/sdk/platform-tools:/Applications/adt-bundle-mac/sdk/tools"    /usr/bin/touch -c "/Users/admin/Desktop/Helena/NoteTaker/platforms/ios/build/Note Taker.app"36"95E8279F-B65F-441E-AD61-DA0E3F1EC02B-
+
