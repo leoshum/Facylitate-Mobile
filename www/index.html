@@ -26,12 +26,16 @@
             </div>
             <div data-role="content">
                 <div id="teacher-block">
-                    <input type="text" name="teacher-name" id="teacher-name" />
+                    <div data-role="fieldcontain">
+                        <label for="teacher-name">Teacher Name:</label>
+                        <input type="text" name="teacher-name" id="teacher-name" />
+                    </div>
                     <span>Date: <span id="today-date"></span></span>
                 </div>
                 <div id="notes-container"></div>
                 <div>
-                    <textarea id="new-note"></textarea>
+                    <label for="new-note">Comment</label>
+                    <textarea id="new-note" name="new-note"></textarea>
                     <a onclick="app.addNote()" data-role="button" data-theme="a">Add Note</a>
                     <a onclick="app.saveNote()" data-role="button" data-theme="a">Save</a>
                 </div>
