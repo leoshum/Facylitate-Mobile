@@ -1,4 +1,6 @@
-var app = {
+var date = new Date(),
+    day = date.toDateString(),
+    app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -30,7 +32,7 @@ var app = {
     },
 
     addNote: function() {
-        var time = formatAMPM(new Date()),
+        var time = formatAMPM(date),
             note = $('#new-note').val(),
             noteView = '<span>' + time + ' </span><span>' + note + '</span><br />';
 
@@ -39,9 +41,15 @@ var app = {
     },
 
     saveNote: function() {
-        alert('All notes should be saved to the server')
+        var teacherName = $('#teacher-name').val();
+        
+        alert('All notes should be saved to the server for the teacher: ' + teacherName);
     }
 };
+
+$(document).ready( function() {
+    $('#today-date').text(day);
+});
 
 function formatAMPM(date) {
   var hours = date.getHours();
